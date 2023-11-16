@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  font-size: 14px;
+  color: #666;
+}
+
+tr {
+  border-top: 1px solid #eee;
+}
+
+tr:first-of-type,
+tr:last-of-type td {
+  font-weight: 600;
+}
+
+tr:first-of-type {
+  border-bottom: none;
+  background-color: #dddddd;
+}
+
+td {
+  padding: 6px 12px;
+  border-right: 1px solid #eee;
+}
+
+td:last-of-type {
+  border-right: none;
+}
